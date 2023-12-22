@@ -1,75 +1,150 @@
 # Arduino_tutorial   
-----------------------
-
-## Prepared knowledge       
----------------------   
-**Arduino basics <span style="color: rgb(255, 76, 65);">(Important)</span>:**       
-If you don't have Arduino basics, you can follow the link to learn the basics:         
-1. Learn about [Pico](https://docs.mosiwi.com/en/latest/raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.html) briefly.     
-2. [Using MicroPython in Thonny](https://docs.mosiwi.com/en/latest/raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.html#using-micropython-in-thonny).   
-3. [Upload the code to Pico](https://docs.mosiwi.com/en/latest/raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.html#save-existing-files-or-folders-to-pico).
-
-**Learn about (Option):**      
-[**MicroPython for Pico**](https://docs.micropython.org/en/latest/rp2/quickref.html).    
-
-## Upload code to Pico        
----------------------- 
-**Tools:**     
-1. PC(Win10 or uper)     
-2. Micro USB cable 
-
-**Download code:**    
-Please download the code on Github: <https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico>     
-![Img](../_static/micropython/img/2img.png)       
-Unzip the file downloaded above, and the file in the "**MicroPython**" folder is the code.       
-![Img](../_static/micropython/img/1img.png)   
-
-**Upload module and main code:**    
-Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on **"Python"** and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".     
-![Img](../_static/micropython/img/5img.png)   
-
-Make sure Thonny checked **"View -> Files"**:  
-![Img](../_static/micropython/img/2img.png)    
-
-Select **"Mosiwi_lib_examples"**, then right-click and select the **"Upload to/"** menu to upload the code to Pico:    
-![Img](../_static/micropython/img/8img.jpg)    
-![Img](../_static/micropython/img/3img.png)   
-
-Follow the same method to upload the **"main\.py"** file to Pico:    
-![Img](../_static/micropython/img/4img.png)     
-
-```{tip}        
-If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future.    
+------------------
+```{tip}
+eCar factory default burning Arduino web app code, you can control it through the mobile browser after installing eCar!     
 ```
 
 ## Assembly        
------------
+-----------   
+Go to the installation documentation: [Click me](../assembly/assembly.md)     
+
+## Play eCar    
+------------       
+eCar factory default code can be controlled in two ways: IR remote control and Web app control.     
+
+### IR remote control    
+1. Turn the power switch ON the eCar to the "ON" state.     
+   
+2. [Make sure the infrared remote control has batteries installed.](https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#cr2025-3v-lithium-manganese-battery)       
+
+3. Now you can control mCar!    
+ 
+| Button | Function |    
+| :--: | :-- |  
+| 0 - 9 | Play different songs. |   
+| # | Play or pause the song. |       
+| * | Turn on or off the LED light. |       
+| ▲ | Forward |      
+| ▼ | Backward |      
+| ◀ | Turn left |    
+| ▶ | Turn right |    
+| OK | Stop |    
+
+### Web app control
+1. Turn the power switch ON the eCar to the "ON" state.    
+
+2. The phone searches and connects to mCar's wifi.       
+
+3. Open your phone's browser and link to it by typing **192.168.4.1** in the address bar.    
+
+4. The following screen should appear in your browser, and now you can control mCar!     
+   
+| Button | Function |    
+| :--: | :-- |
+| Left display window | Displays the name of the song. |  
+| Right display window | Display the distance measured by the ultrasonic module. |     
+| P: xxx% | Displays the battery level. |    
+| F | Press the button, the car forward; Release the button and the car stop. |   
+| B | Press the button, the car backward; Release the button and the car stop. |  
+| L | Press the button, the car turn left; Release the button and the car stop. |  
+| R | Press the button, the car turn right; Release the button and the car stop. |  
+| P | Press the button, the horn will sound; release the button and the horn will stop. |     
+| Speed | Adjust the speed of the car. |   
+| Aservo | Adjust the Angle of the ultrasound. |  
+| Bservo | Reserved, if the servo2 interface is connected to the servo, its Angle can be controlled. |   
+| Volt +/- | Control the volume of the speaker. |   
+| < | Returns the last song. |  
+| \|\|< | Play or pause the song. | 
+| > | Switch to the next song. | 
+| A | Turn RGB LED flashing on or off. | 
+| S | Turn on or off the ultrasonic measuring distance. | 
+| C | Reserve | 
+
+## Component function learning      
+------------------------------
 ```{note}
-You must follow the [**previous step**](#upload-code-to-pico) to upload the code before you can install!
+The following will override the ESP32 factory default code!     
+```
+Tools:     
+1. PC(Win10 or uper)     
+2. Type C USB cable 
+               
+### Install the Arduino IDE:    
+[Click me](https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html)     
+
+### Configure the Arduino IDE for ESP32:    
+1. Open the arduino IDE，click "File" > "Preferences"，as shown below:      
+![img](../_static/arduino_tutorial/img/3img.jpg)    
+
+2. Open the button marked below:   
+![img](../_static/arduino_tutorial/img/4img.jpg)    
+
+3. Copy the link：
+
+```
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```  
+4. Paste it inside and click OK, as shown below:    
+![img](../_static/arduino_tutorial/img/5img.jpg)   
 
-Please refer to: [Assembly](../assembly/assembly.md)    
+5. Click "Boards Manager":   
+![img](../_static/arduino_tutorial/img/6img.jpg)   
 
-## Control space station    
-------------------------   
-The [previous steps](#upload-code-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
+6. Find the ESP32 from the pop up Boards Manager and then click install.   
+![img](../_static/arduino_tutorial/img/7img.jpg)   
 
-Function of the key:    
-| 1 | 2 | 3 |    
-| :--: | :--: | :--: |    
-| LED switch | Buzzer switch | Laser switch |      
-| 5 | 8 | 0 |     
-|door switch | Displays battery power | Display light value |   
-| ▲ | ▼ | ◀ |     
-| Solar panels turn backwards | Solar panels turn forward | Space station turns left |    
-| ▶ | OK |  |    
-| Space station turns right | Mode switch |  |    
+7. Click "Tools" > "Board" > "esp32" to choose the "ESP32 Dev Module".      
+![img](../_static/arduino_tutorial/img/8img.jpg)     
 
-**Remote mode:** The space station is controlled by infrared remote control.       
-![Img](../_static/micropython/img/6img.png)      
+### Installing libraries:      
+1. Install "ESP32Servo" library:
+![img](../_static/arduino_tutorial/img/9img.jpg)    
 
-**Auto mode:** The space station automatically tracks the direction of the light and uses the brightness of the light to control the LED.     
-![Img](../_static/micropython/img/7img.png)       
+2. Install "IRremote" library:    
+![img](../_static/arduino_tutorial/img/10img.jpg)     
+
+3. Install "ESP32-audioI2S" library:  
+
+
+### Download the example code:       
+      
+### Project_1     
+LEDs  
+
+### Project_2     
+Motors  
+
+### Project_3     
+Tuch  
+
+### Project_4     
+RGB LED   
+
+### Project_5     
+Servo   
+
+### Project_6     
+Ultrusonic     
+
+### Project_7     
+SD card         
+
+### Project_8     
+Speak   
+
+### Project_9     
+Wifi   
+
+### Project_10     
+eCar    
+
+## Restore factory function
+
+
+## Other Resources (option)     
+---------------------------
+[Arduino programming language (option)](https://docs.mosiwi.com/en/latest/arduino/A1D0000_uno_r3/A1D0000_uno_r3.html#arduino-programming-language)     
+     
 
 --------
 **End!**    
