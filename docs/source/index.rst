@@ -18,11 +18,12 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
    :caption: E1K0000_eCar_kit:
 
    Overview <Overview/Overview.md>
+   Assembly <assembly/assembly.md>   
+   Play eCar <play_ecar/play_ecar.md> 
    Arduino_tutorial <arduino_tutorial/arduino_tutorial.md>
 
 .. toctree::
    :maxdepth: 3
    :caption: Other:
 
-   Assembly <assembly/assembly.md>
    QA <qa/qa.md>    
