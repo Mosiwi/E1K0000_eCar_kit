@@ -41,12 +41,20 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ## Installing libraries                 
 -----------------------                           
 1. Download the library file and unzip it.   
-[Click Me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)   
+[Click Me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)      
+
+```{tip}
+The library files downloaded above are tested by us, they may not be the latest library files!       
+```   
 
 2. Install the library files downloaded above into the Arduino IDE.             
 Refer to: [Link](https://docs.mosiwi.com/en/latest/arduino/resources/arduino_libraries/arduino_libraries.html#installing-libraries)    
 ![img](../_static/arduino_tutorial/img/7img.jpg)       
 
+Latest library resources（option）:
+ESP32-audioI2S-master: <https://github.com/schreibfaul1/ESP32-audioI2S>    
+ESP32Servo: <https://madhephaestus.github.io/ESP32Servo/annotated.html>    
+IRremote: <https://github.com/Arduino-IRremote/Arduino-IRremote>  
 
 ### Download the example code:       
       
