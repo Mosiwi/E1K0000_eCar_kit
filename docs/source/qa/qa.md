@@ -12,7 +12,10 @@
 
 ## IR remote control does not work or send data short distance ?
 --------------------------------------------------------------    
-1. [IR remote control](https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes)
+1. [IR remote control](https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes)    
+
+## Unable to play music ?  
+1. Make sure that the SD card is inserted into the SD card holder of eCar.    
 
 ## How to check the good or bad of the components ?      
 --------------------------------------------------  
