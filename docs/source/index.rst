@@ -21,6 +21,7 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
    Assembly <assembly/assembly.md>   
    Play eCar <play_ecar/play_ecar.md> 
    Arduino_tutorial <arduino_tutorial/arduino_tutorial.md>
+   Restore factory function <restore_factory_function/restore_factory_function.md>  
 
 .. toctree::
    :maxdepth: 3
