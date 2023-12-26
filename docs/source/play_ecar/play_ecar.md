@@ -10,7 +10,7 @@ eCar factory default code can be controlled in two ways: IR remote control and W
 --------------------
 1. Turn the power switch ON the eCar to the "ON" state.     
    
-2. [Make sure the infrared remote control has batteries installed.](https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#cr2025-3v-lithium-manganese-battery)       
+2. <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#cr2025-3v-lithium-manganese-battery" target="_blank">Make sure the infrared remote control has batteries installed.</a>      
 
 3. Now you can control mCar!    
 ![img](../_static/play_ecar/img/2img.jpg)       
