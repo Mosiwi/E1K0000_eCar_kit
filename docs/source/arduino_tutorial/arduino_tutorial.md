@@ -8,10 +8,20 @@ The following will override the ESP32 factory default code!
 Tools:     
 1. PC(Win10 or uper)     
 2. Type C USB cable 
-               
+
+## Install the CH340 driver:      
+----------------------------     
+<a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
+```{tip}
+If you've already done this step, you can skip it!           
+``` 
+
 ## Install the Arduino IDE                  
 --------------------------        
-<a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html" target="_blank">Click me</a>      
+<a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html" target="_blank">Click me</a>       
+```{tip}
+If you've already done this step, you can skip it!   
+```
 
 ## Installing libraries                 
 -----------------------                           
@@ -67,38 +77,97 @@ All the following project code needs to be set according to the above parameters
 
 ## Project     
 ----------     
+**Download the example code:**       
+[Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.zip)     
 
-### Download the example code:       
-[Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.zip)    
+### 1_Touch        
+1. Open the "touch" example code:         
+![img](../_static/arduino_tutorial/img/9img.jpg) 
 
-### Project_1     
-LEDs  
+2. Select board type:    
+![img](../_static/arduino_tutorial/img/6img.jpg)       
 
-### Project_2     
-Motors  
+3. Select COM port:          
+![img](../_static/arduino_tutorial/img/10img.jpg) 
+```{note}
+The CH340 driver must be installed, otherwise the COM port cannot be found!              
+``` 
 
-### Project_3     
-Tuch  
+4. ESP32 parameter Settings:     
+![img](../_static/arduino_tutorial/img/8img.jpg)     
 
-### Project_4     
-RGB LED   
+5. Upload the code:     
+![img](../_static/arduino_tutorial/img/11img.jpg)      
 
-### Project_5     
-Servo   
+6. Open the serial monitor and select the baud rate:      
+![img](../_static/arduino_tutorial/img/12img.jpg)    
 
-### Project_6     
-Ultrusonic     
+7. Result:         
+![img](../_static/arduino_tutorial/img/13img.jpg) 
+Click the touch stick of eCar, and the serial port monitor displays the data.       
+![img](../_static/arduino_tutorial/img/14img.jpg)       
 
-### Project_7     
-SD card         
+**Code analysis:**       
 
-### Project_8     
-Speak   
+1. Start the serial port:  
+```
+Serial.begin(115200);
+```
 
-### Project_9     
-Wifi   
+2. After printing serial port data, no line breaks:       
+```
+Serial.print("T2(IO2) = ");    
+```
 
-### Project_10     
+3. After printing touch data on the serial port, newline:       
+```
+Serial.println(touchRead(T2));     
+```
+
+4. Initialize the touch interrupt:    
+```
+// For tuch T2(IO02).
+touchAttachInterrupt(T2, gotTouchT2, threshold);
+```
+
+5. Define the touch interrupt mode:     
+```
+// Touch ISR will be activated when touchRead is lower than the Threshold
+touchInterruptSetThresholdDirection(testingLower);
+```
+
+6. Touch interrupt function:      
+```
+// Interrupt function for touch T2(IO02).
+void gotTouchT2(){
+  if (lastTouchActive != testingLower) {
+    touchActive = !touchActive;
+    testingLower = !testingLower;
+    // Touch ISR will be inverted: Lower <--> Higher than the Threshold after ISR event is noticed
+    touchInterruptSetThresholdDirection(testingLower);
+  }
+}
+```
+
+### 2_Ultrasonic     
+
+### 3_Servo       
+
+### 4_RGB_LED      
+
+### 5_SD_card      
+
+### 6_Speaker     
+
+### 7_MP3_player     
+
+### 8_IRremote     
+
+### 9_Motor     
+
+### 10_WEB_app     
+
+### 11_eCar  
 eCar    
 
 
