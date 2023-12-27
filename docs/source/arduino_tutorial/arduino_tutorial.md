@@ -275,22 +275,22 @@ int color[] =  {0x55, 0x11, 0x77};  // RGB value: G, R, B
 ```
 int i=0, led, col, bit;
 for (led=0; led<NR_OF_LEDS; led++) {
-    for (col=0; col<3; col++ ) {
+  for (col=0; col<3; col++ ) {
     for (bit=0; bit<8; bit++){
-        if ( (color[col] & (1<<(7-bit))) && (led == RGBled_index) ) {
+      if ( (color[col] & (1<<(7-bit))) && (led == RGBled_index) ) {
         led_data[i].level0 = 1;
         led_data[i].duration0 = 8;
         led_data[i].level1 = 0;
         led_data[i].duration1 = 4;
-        } else {
+      } else {
         led_data[i].level0 = 1;
         led_data[i].duration0 = 4;
         led_data[i].level1 = 0;
         led_data[i].duration1 = 8;
-        }
-        i++;
+      }
+      i++;
     }
-    }
+  }
 }
 ```
 
@@ -463,7 +463,7 @@ i2cMotorInit();
 More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
 More information about I2C communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/iic/iic.html" target="_blank">Link</a>    
 
-1. Select the motor and set its rotation direction and speed.                  
+2. Select the motor and set its rotation direction and speed.                  
 ```
 // Description: Set motor speed and steering.
 // Parameters:  Motor: 0-3 --> M1-M4
@@ -474,27 +474,27 @@ void SetMotor(char motor, char direction, char speed){
 } 
 ```  
 
-1. eCar runs forward.       
+3. eCar runs forward.       
 ```
 CarRunForword(carSpeed);    
 ```
 
-1. eCar runs backwards.           
+4. eCar runs backwards.           
 ```
 CarRunBack(carSpeed);       
 ```
 
-1. eCar turns left.           
+5. eCar turns left.           
 ```
 CarTurnLeft(carSpeed);        
 ```
 
-1. eCar turns right.         
+6. eCar turns right.         
 ```
 CarTurnRight(carSpeed);       
 ```
 
-1. eCar stop.           
+7. eCar stop.           
 ```
 CarStop();       
 ```
