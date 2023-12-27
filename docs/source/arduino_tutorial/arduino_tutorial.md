@@ -81,6 +81,8 @@ All the following project code needs to be set according to the above parameters
 [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.zip)     
 
 ### 1_Touch        
+
+
 1. Open the "touch" example code:         
 ![img](../_static/arduino_tutorial/img/9img.jpg) 
 
@@ -148,11 +150,12 @@ void gotTouchT2(){
 }
 ```
 
-### 2_Ultrasonic     
-1. Open the "ultrasonic" example code and upload it to eCar:           
+### 2_Ultrasonic_module        
+1. Open the "ultrasonic_module" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/15img.jpg)       
 
 2. Result:    
+The serial port monitor prints the distance measured by the ultrasonic module.        
 ![img](../_static/arduino_tutorial/img/16img.jpg)     
 
 **Code analysis:**     
@@ -210,16 +213,17 @@ while(digitalRead(echoPin) == HIGH){
 5. Calculate the distance of the object
 ```
 long dis = T * (10 + readEchoPinErr) * 0.034 / 2;
-```
+```    
 
-More information about ultrasonic module: <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Link</a>      
+More information about ultrasonic module: <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Link</a>       
 
 ### 3_Servo       
 1. Open the "servo" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/17img.jpg)       
 
 2. Result:    
-![img](../_static/arduino_tutorial/img/18img.jpg)     
+Servo cycle 0--180 degrees, 180--0 degrees swing.       
+![img](../_static/arduino_tutorial/img/18img.jpg)       
 
 **Code analysis:**       
 1. Include the servo drive library into the code.    
@@ -252,9 +256,9 @@ myBservo.write(90);
 ```
 myAservo.write(90);
 myBservo.write(90);
-```
+```    
 
-More information about servo: <a href="https://docs.mosiwi.com/en/latest/outsourcing/sg90_servo/sg90_servo.html" target="_blank">Link</a>     
+More information about servo: <a href="https://docs.mosiwi.com/en/latest/outsourcing/sg90_servo/sg90_servo.html" target="_blank">Link</a>    
 
 ### 4_RGB_LED      
 A WS2812 RGB LED module is used on eCar to generate different colors of light.          
@@ -262,7 +266,8 @@ A WS2812 RGB LED module is used on eCar to generate different colors of light.
 1. Open the "RGB_LED" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/19img.jpg)       
 
-1. Result:    
+2. Result:    
+RGB LEDs first produce white light, and then cycle through to produce red, green, and blue light.         
 ![img](../_static/arduino_tutorial/img/20img.jpg)  
 
 **Code analysis:**      
@@ -306,8 +311,9 @@ rmtWrite(rmt_send, led_data, NR_OF_ALL_BITS);
 2. Open the "SD_card" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/22img.jpg)       
 
-3. Result:    
-![img](../_static/arduino_tutorial/img/23img.jpg)  
+3. Result:      
+Print all the contents in the root directory of the SD card on the serial monitor.     
+![img](../_static/arduino_tutorial/img/23img.jpg)     
 
 **Code analysis:**       
 1. Initialize the SPI port.    
@@ -316,7 +322,6 @@ pinMode(SD_CS, OUTPUT);
 digitalWrite(SD_CS, HIGH);
 SPI.begin(SPI_SCK, SPI_MISO, SPI_MOSI);
 ``` 
-More information about SPI communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/spi/spi.html" target="_blank">Link</a>  
 
 2. Initialize the SD card.    
 ```
@@ -331,11 +336,14 @@ if(!SD.begin(SD_CS)){
 listDir(SD, "/", 0);
 ```
 
+More information about SPI communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/spi/spi.html" target="_blank">Link</a>  
+
 ### 6_Speaker     
 1. Open the "speaker" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/24img.jpg)       
 
-2. Result:    
+2. Result:         
+The speaker produces 440 Hz sound all the time.             
 ![img](../_static/arduino_tutorial/img/25img.jpg)    
 
 **Code analysis:**        
@@ -347,7 +355,7 @@ while (1); // do nothing
 }
 ```
 
-2. Send data to the I2S slave.      
+1. Send data to the I2S slave.      
 ```
 I2S.write(sample);    
 ```
@@ -424,8 +432,9 @@ udio.stopSong();
 1. Open the "IRremote" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/29img.jpg)       
 
-2. Result:    
-![img](../_static/arduino_tutorial/img/30img.jpg)    
+2. Result:      
+Open the serial monitor of Arduino IDE, press the button on the infrared remote control, and the serial monitor prints different values.         
+![img](../_static/arduino_tutorial/img/30img.jpg)       
 
 **Code analysis:**        
 1. Initialize the IR receiver.       
@@ -443,16 +452,17 @@ if (IrReceiver.decode()){
 3. The next infrared data is allowed to be received.    
 ```
 IrReceiver.resume();   
-```
+```  
 
 More information about IR receiver: <a href="https://docs.mosiwi.com/en/latest/common/C1S0001_ir_receiver/C1S0001_ir_receiver.html" target="_blank">Link</a>   
-More information about IR remote control: <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">Link</a>    
+More information about IR remote control: <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">Link</a>     
 
 ### 9_Motor     
 1. Open the "motor" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/31img.jpg)       
 
-2. Result:    
+2. Result:       
+eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.     
 ![img](../_static/arduino_tutorial/img/32img.jpg)    
 
 **Code analysis:**        
@@ -499,12 +509,48 @@ CarTurnRight(carSpeed);
 CarStop();       
 ```
 
-### 10_WEB_app     
+### 10_WEB_app       
 1. Open the "web_app" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/33img.jpg)       
 
-2. Result:    
-![img](../_static/arduino_tutorial/img/34img.jpg)    
+2. The phone searches and connects to mCar's wifi.       
+![img](../_static/play_ecar/img/34img.jpg)     
+
+```{tip}
+After connecting to Wifi, your phone may pop up a window saying it cannot connect to the network, please ignore it!          
+```  
+
+3. Open your phone's browser and link to it by typing **"192.168.4.1"** in the address bar.    
+![img](../_static/play_ecar/img/35img.jpg)    
+
+4. The following screen should appear in your browser.      
+![img](../_static/play_ecar/img/36img.jpg) 
+
+5. Result:       
+Open the serial monitor of Arduino IDE, click or press the button on the Web App, and the serial monitor prints different values.             
+![img](../_static/arduino_tutorial/img/37img.jpg)     
+
+| Button | Serial port monitor display |    
+| :--: | :-- |
+| Left display window | Left display window |  
+| Right display window | right display window |     
+| P: xxx% | P: 100% |    
+| F | F key is pressed! |   
+| B | B key is pressed! |  
+| L | L key is pressed! |  
+| R | R key is pressed! |  
+| P | P key is pressed! |     
+| Speed | Speed: xxx |   
+| Light | Light: xxx |     
+| Aservo | Aservo: xxx | 
+| Bservo | Bservo: xxx |   
+| Volt +/- | Volume: xx |   
+| < | Return key is clicked! |  
+| \|\|< | Pause key is clicked! | 
+| > | Next key is clicked! | 
+| A | A key is clicked! | 
+| S | S key is clicked! | 
+| C | C key is clicked! | 
 
 **Code analysis:**        
 1. Set the working mode of ESP32, 1 is AP mode and 0 is Station mode.     
@@ -540,8 +586,9 @@ The function of this code is the same as the function of eCar out of the factory
 
 ## Other Resources (option)     
 ---------------------------        
-<a href="https://docs.mosiwi.com/en/latest/arduino/A1D0000_uno_r3/A1D0000_uno_r3.html#arduino-programming-language" target="_blank">Arduino programming language (option)</a>      
+<a href="https://docs.mosiwi.com/en/latest/arduino/A1D0000_uno_r3/A1D0000_uno_r3.html#arduino-programming-language" target="_blank">Arduino programming language</a>       
 
+<a href="https://docs.mosiwi.com/projects/c1k0000/en/latest/" target="_blank">Arduino Getting Started Learning Kit</a>     
 
 --------
 **End!**    

@@ -31,7 +31,11 @@ eCar factory default code can be controlled in two ways: IR remote control and W
 1. Turn the power switch ON the eCar to the "ON" state.    
 
 2. The phone searches and connects to mCar's wifi.       
-![img](../_static/play_ecar/img/3img.jpg)    
+![img](../_static/play_ecar/img/3img.jpg)     
+ 
+```{tip}
+After connecting to Wifi, your phone may pop up a window saying it cannot connect to the network, please ignore it!          
+``` 
 
 3. Open your phone's browser and link to it by typing **"192.168.4.1"** in the address bar.    
 ![img](../_static/play_ecar/img/4img.jpg)    

@@ -3,6 +3,25 @@
 ![Img](../_static/overview/img/0img.png)    
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.             
 
+## Specification    
+----------------
+• Operating voltage: 3.3V   
+• Maximum output power: 3.3V/2A  
+• Charge current: 1A  
+• Power of speaker: 4R/1W
+• Motor speed: 245rpm/6V
+
+## Recommended battery specifications      
+-------------------------------------
+• Model: 18650 lithium battery (Button top)    
+• Capacity: >2000mAh    
+• Maximum charging voltage: 4.2V    
+• Nominal voltage: 3.7V   
+• End-off voltage: 2.75V    
+• Minimum charging current: >1A     
+• Minimum discharge current: >4A   
+![img](../_static/overview/img/20img.jpg)
+
 ## Detailed list                
 ----------------
 | [eCar drive board]() | <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Ultrasonic module</a> | <a href="https://docs.mosiwi.com/en/latest/outsourcing/sg90_servo/sg90_servo.html" target="_blank">Servo</a> |     
@@ -10,10 +29,10 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | ![Img]() | ![Img](../_static/overview/img/2img.jpg) | ![Img](../_static/overview/img/3img.jpg) |  
 | <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">IR remote control</a> | [RGB LED]()  | [Speaker]() |  
 | ![Img](../_static/overview/img/4img.jpg) | ![Img]() | ![Img]() |      
-| Acrylic board compatible with LEGO | Ultrasonic module fixing parts | TT Motor |              
+| Acrylic board | Ultrasonic module fixing parts | TT Motor |              
 | ![Img]() | ![Img]() | ![Img]() |     
 | Motor fixed parts | Wheel | Battery case |              
-| ![Img](../_static/overview/img/10img.jpg) | ![Img](../_static/overview/img/11img.jpg) | ![Img]() |     
+| ![Img](../_static/overview/img/10img.jpg) | ![Img](../_static/overview/img/11img.jpg) | ![Img](../_static/overview/img/12img.jpg) |     
 | 3P XH2.54 cable | 4P XH2.54 cable | M3\*15 dual-pass copper pillar |      
 | ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | ![Img](../_static/overview/img/15img.jpg) |     
 | M3 nuts | M3\*8mm round-head screw | M1.5 nuts |     
@@ -26,3 +45,6 @@ This kit provides rich and detailed tutorial materials, very simple installation
 Click on the name in the list to get detailed specifications!   
 ```
 
+## Resource Download     
+--------------------     
+1. Schematic diagram: [Click me to download!](../_static/pdf/eCar_sch.PDF)   
