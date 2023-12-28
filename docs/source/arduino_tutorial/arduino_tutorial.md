@@ -36,6 +36,10 @@ The library files downloaded above are tested by us, they may not be the latest 
 Refer to: <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_libraries/arduino_libraries.html#installing-libraries" target="_blank">Link</a>             
 ![img](../_static/arduino_tutorial/img/7img.jpg)       
 
+```{note}
+It is possible that you have already installed these libraries, but the version of the library is different, and there will be an error message during the installation process. We recommend deleting the installed libraries and using the libraries we provide!            
+```   
+
 Latest library resources（option）:      
 ESP32-audioI2S-master: <https://github.com/schreibfaul1/ESP32-audioI2S>    
 ESP32Servo: <https://madhephaestus.github.io/ESP32Servo/annotated.html>    
@@ -153,8 +157,9 @@ void gotTouchT2(){
 ![img](../_static/arduino_tutorial/img/15img.jpg)       
 
 2. Result:    
-The serial port monitor prints the distance measured by the ultrasonic module.        
+The serial port monitor prints the distance measured by the ultrasonic module.       
 ![img](../_static/arduino_tutorial/img/16img.jpg)     
+![img](../_static/arduino_tutorial/img/38img.jpg)           
 
 **Code analysis:**     
 1. Define a thread.   
@@ -366,6 +371,7 @@ I2S.write(sample);
 ![img](../_static/arduino_tutorial/img/26img.jpg)       
 
 3. Result:    
+eCar will always loop the songs from the SD card.       
 ![img](../_static/arduino_tutorial/img/27img.jpg)    
 
 **Code analysis:**        

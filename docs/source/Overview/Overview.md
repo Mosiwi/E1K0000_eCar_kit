@@ -22,8 +22,8 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Operating voltage: 3.3V   
 • Maximum output power: 3.3V/2A  
 • Charge current: 1A   
-• Power of speaker: 4R/1W      
-• Motor speed: 245rpm/6V     
+• Power of speaker: 8Ω/2W      
+• Motor speed: 245rpm/6V   
 
 ## Recommended battery specifications      
 -------------------------------------
