@@ -487,6 +487,7 @@ void SetMotor(char motor, char direction, char speed){
   ...
 } 
 ```  
+![img](../_static/arduino_tutorial/img/39img.jpg)      
 
 3. eCar runs forward.       
 ```
