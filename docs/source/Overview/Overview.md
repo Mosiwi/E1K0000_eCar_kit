@@ -3,13 +3,27 @@
 ![Img](../_static/overview/img/0img.png)    
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.             
 
+**Functional description**      
+• Wifi, Web_App control.      
+• Power display(Web_App).    
+• 4 Motor drive (With LED car lights).           
+• Speakers, MP3 players play songs.            
+• SD card for storing songs, etc.          
+• Touch music alarm.             
+• Full color RGB LED.    
+• Ultrasonic distance measurement.     
+• Servo control ultrasonic module, etc.    
+• Compatible with LEGO extensions.     
+• IO ports are reserved to expand other functions.           
+• With USB port charging function.       
+
 ## Specification    
 ----------------
 • Operating voltage: 3.3V   
 • Maximum output power: 3.3V/2A  
-• Charge current: 1A  
-• Power of speaker: 4R/1W
-• Motor speed: 245rpm/6V
+• Charge current: 1A   
+• Power of speaker: 4R/1W      
+• Motor speed: 245rpm/6V     
 
 ## Recommended battery specifications      
 -------------------------------------
@@ -20,7 +34,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • End-off voltage: 2.75V    
 • Minimum charging current: >1A     
 • Minimum discharge current: >4A   
-![img](../_static/overview/img/20img.jpg)
+![img](../_static/overview/img/20img.jpg)      
 
 ## Detailed list                
 ----------------

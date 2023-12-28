@@ -80,9 +80,7 @@ All the following project code needs to be set according to the above parameters
 **Download the example code:**       
 [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.zip)     
 
-### 1_Touch        
-
-
+### 1_Touch          
 1. Open the "touch" example code:         
 ![img](../_static/arduino_tutorial/img/9img.jpg) 
 
