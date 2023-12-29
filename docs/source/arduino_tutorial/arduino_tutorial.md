@@ -464,6 +464,7 @@ udio.stopSong();
 2. Result:      
 Open the serial monitor of Arduino IDE, press the button on the infrared remote control, and the serial monitor prints different values.         
 ![img](../_static/arduino_tutorial/img/30img.jpg)       
+![img](../_static/arduino_tutorial/img/44img.jpg)      
 
 **Code analysis:**        
 1. Initialize the IR receiver.       
@@ -486,7 +487,23 @@ IrReceiver.resume();
 More information about IR receiver: <a href="https://docs.mosiwi.com/en/latest/common/C1S0001_ir_receiver/C1S0001_ir_receiver.html" target="_blank">Link</a>   
 More information about IR remote control: <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">Link</a>     
 
-### 10_Motor     
+### 10_Motor       
+**Principle of motor drive:**       
+Four motors and two leds are controlled through the I2C communication protocol.    
+![img](../_static/arduino_tutorial/img/43img.jpg)   
+
+• The I2C speed is 100Khz, and the slave address is 0x2f.     
+• The PWM frequency between the motor and the LED is about 200Hz.     
+• Instruction format: 0x2f + device number + data.     
+• Device number: 0=Motor1, 1=Motor2, 2=motor3, 3=motor4, 4=LED1, 5=LED2.     
+• Data: 0-199;   
+• ......0-99: motor reverse speed/LED brightness, from small to large;   
+• ......100-199: motor forward speed, from small to large (mapped to 0-99).          
+
+More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
+More information about I2C communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/iic/iic.html" target="_blank">Link</a>      
+
+**Example:**       
 1. Open the "motor" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/31img.jpg)       
 
@@ -497,11 +514,9 @@ eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.
 1. Initialize the I2C master.          
 ```
 i2cMotorInit();      
-```
-More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
-More information about I2C communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/iic/iic.html" target="_blank">Link</a>    
+```  
 
-1. Select the motor and set its rotation direction and speed.                  
+2. Select the motor and set its rotation direction and speed.                  
 ```
 // Description: Set motor speed and steering.
 // Parameters:  Motor: 0-3 --> M1-M4
@@ -513,29 +528,34 @@ void SetMotor(char motor, char direction, char speed){
 ```  
 ![img](../_static/arduino_tutorial/img/32img.jpg)      
 
-1. eCar runs forward.       
+3. eCar runs forward.       
 ```
 CarRunForword(carSpeed);    
 ```
 
-1. eCar runs backwards.           
+4. eCar runs backwards.           
 ```
 CarRunBack(carSpeed);       
 ```
 
-1. eCar turns left.           
+5. eCar turns left.           
 ```
 CarTurnLeft(carSpeed);        
 ```
 
-1. eCar turns right.         
+6. eCar turns right.         
 ```
 CarTurnRight(carSpeed);       
 ```
 
-1. eCar stop.           
+7. eCar stop.           
 ```
 CarStop();       
+```
+
+8. Set the brightness of 2 leds, parameter value: 0-99.             
+```
+LedBrightness(99);        
 ```
 
 ### 11_WEB_app       

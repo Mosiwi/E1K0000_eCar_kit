@@ -15,7 +15,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Servo control ultrasonic module, etc.    
 • Compatible with LEGO extensions.     
 • IO ports are reserved to expand other functions.           
-• With USB port charging function.       
+• With USB port charging function (5V).       
 
 ## Specification    
 ----------------
@@ -34,25 +34,32 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • End-off voltage: 2.75V    
 • Minimum charging current: >1A     
 • Minimum discharge current: >4A   
-![img](../_static/overview/img/20img.jpg)      
+![img](../_static/overview/img/21img.jpg)      
 
 ## Detailed list                
 ----------------
 | [eCar drive board]() | <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Ultrasonic module</a> | <a href="https://docs.mosiwi.com/en/latest/outsourcing/sg90_servo/sg90_servo.html" target="_blank">Servo</a> |     
-| :--: | :--: | :--: |
+| :--: | :--: | :--: |    
+| 1PCS | 1PCS | 1PCS |    
 | ![Img]() | ![Img](../_static/overview/img/2img.jpg) | ![Img](../_static/overview/img/3img.jpg) |  
-| <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">IR remote control</a> | [RGB LED]()  | [Speaker]() |  
-| ![Img](../_static/overview/img/4img.jpg) | ![Img]() | ![Img]() |      
-| Acrylic board | Ultrasonic module fixing parts | TT Motor |              
-| ![Img]() | ![Img]() | ![Img]() |     
-| Motor fixed parts | Wheel | Battery case |              
+| <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">IR remote control</a> | RGB LED | Speaker |      
+| 1PCS | 1PCS | 1PCS |    
+| ![Img](../_static/overview/img/4img.jpg) | ![Img]() | ![Img](../_static/overview/img/6img.jpg) |      
+| Acrylic board | Ultrasonic module fixing parts | TT Motor |      
+| 1PCS | 1PCS | 4PCS |              
+| ![Img]() | ![Img]() | ![Img](../_static/overview/img/9img.jpg) |     
+| Motor fixed parts | Wheel | Battery case |      
+| 4PCS | 4PCS | 1PCS |               
 | ![Img](../_static/overview/img/10img.jpg) | ![Img](../_static/overview/img/11img.jpg) | ![Img](../_static/overview/img/12img.jpg) |     
 | 3P XH2.54 cable | 4P XH2.54 cable | M3\*15 dual-pass copper pillar |      
+| 1PCS | 1PCS | 5PCS |    
 | ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | ![Img](../_static/overview/img/15img.jpg) |     
-| M3 nuts | M3\*8mm round-head screw | M1.5 nuts |     
-| ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) |    
-| M1.5\*8mm round-head screw | USB cable |  |    
-| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/18img.jpg) |  |      
+| M3\*8mm round-head screw | M1.5\*8mm round-head screw | M1.5 nuts |     
+| 9PCS | 22PCS | 22PCS |      
+| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) |    
+| USB cable | Micro SD card | Phillips Screwdriver |    
+| 1PCS | 1PCS | 1PCS |    
+| ![Img](../_static/overview/img/18img.jpg) | ![Img](../_static/overview/img/19img.jpg) | ![Img](../_static/overview/img/20img.jpg) |      
   
 
 ```{tip}
