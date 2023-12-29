@@ -220,7 +220,29 @@ long dis = T * (10 + readEchoPinErr) * 0.034 / 2;
 
 More information about ultrasonic module: <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Link</a>       
 
-### 3_Servo       
+### 3_Voltage       
+1. Open the "voltage" example code and upload it to eCar:           
+![img](../_static/arduino_tutorial/img/40img.jpg)       
+
+2. Result:    
+The serial port monitor prints the digital analog value and voltage value of the battery.              
+![img](../_static/arduino_tutorial/img/41img.jpg)       
+
+**Code analysis:**       
+1. Set the resolution of the ADC, which can be configured with 12 bit, 11 bit, 10 bit and 9 bit resolutions.       
+```
+analogReadResolution(12);
+```
+
+2. Read the analog / millivolts value for pin34.                
+```
+int analogValue = analogRead(34)*2;   
+int analogVolts = analogReadMilliVolts(34)*2;  
+```    
+Note: Because two 10K divider resistors are used to sample the voltage of the battery, it needs to be multiplied by two.              
+![img](../_static/arduino_tutorial/img/42img.jpg)     
+
+### 4_Servo       
 1. Open the "servo" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/17img.jpg)       
 
@@ -263,7 +285,7 @@ myBservo.write(90);
 
 More information about servo: <a href="https://docs.mosiwi.com/en/latest/outsourcing/sg90_servo/sg90_servo.html" target="_blank">Link</a>    
 
-### 4_RGB_LED      
+### 5_RGB_LED      
 A WS2812 RGB LED module is used on eCar to generate different colors of light.          
 
 1. Open the "RGB_LED" example code and upload it to eCar:           
@@ -307,7 +329,7 @@ for (led=0; led<NR_OF_LEDS; led++) {
 rmtWrite(rmt_send, led_data, NR_OF_ALL_BITS);   
 ```
 
-### 5_SD_card      
+### 6_SD_card      
 1. Insert the SD card into the eCar.      
 ![img](../_static/arduino_tutorial/img/21img.jpg)      
 
@@ -341,13 +363,17 @@ listDir(SD, "/", 0);
 
 More information about SPI communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/spi/spi.html" target="_blank">Link</a>  
 
-### 6_Speaker     
+### 7_Speaker     
 1. Open the "speaker" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/24img.jpg)       
 
 2. Result:         
 The speaker produces 440 Hz sound all the time.             
-![img](../_static/arduino_tutorial/img/25img.jpg)    
+   
+```{tip}
+Make sure the speaker is plugged into eCar!           
+```
+![img](../_static/arduino_tutorial/img/25img.jpg)     
 
 **Code analysis:**        
 1. Initialize the I2S master.       
@@ -363,7 +389,7 @@ while (1); // do nothing
 I2S.write(sample);    
 ```
 
-### 7_MP3_player       
+### 8_MP3_player       
 1. Insert the SD card into the eCar.      
 ![img](../_static/arduino_tutorial/img/21img.jpg)   
 
@@ -372,7 +398,6 @@ I2S.write(sample);
 
 3. Result:    
 eCar will always loop the songs from the SD card.       
-![img](../_static/arduino_tutorial/img/27img.jpg)    
 
 **Code analysis:**        
 1. Define a 2-dimensional array to store the song names in the SD card.                
@@ -432,7 +457,7 @@ udio.stopSong();
 ![img](../_static/arduino_tutorial/img/28img.jpg)     
 
 
-### 8_IRremote     
+### 9_IRremote     
 1. Open the "IRremote" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/29img.jpg)       
 
@@ -461,13 +486,12 @@ IrReceiver.resume();
 More information about IR receiver: <a href="https://docs.mosiwi.com/en/latest/common/C1S0001_ir_receiver/C1S0001_ir_receiver.html" target="_blank">Link</a>   
 More information about IR remote control: <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html" target="_blank">Link</a>     
 
-### 9_Motor     
+### 10_Motor     
 1. Open the "motor" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/31img.jpg)       
 
 2. Result:       
-eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.     
-![img](../_static/arduino_tutorial/img/32img.jpg)    
+eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.        
 
 **Code analysis:**        
 1. Initialize the I2C master.          
@@ -477,7 +501,7 @@ i2cMotorInit();
 More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
 More information about I2C communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/iic/iic.html" target="_blank">Link</a>    
 
-2. Select the motor and set its rotation direction and speed.                  
+1. Select the motor and set its rotation direction and speed.                  
 ```
 // Description: Set motor speed and steering.
 // Parameters:  Motor: 0-3 --> M1-M4
@@ -487,34 +511,34 @@ void SetMotor(char motor, char direction, char speed){
   ...
 } 
 ```  
-![img](../_static/arduino_tutorial/img/39img.jpg)      
+![img](../_static/arduino_tutorial/img/32img.jpg)      
 
-3. eCar runs forward.       
+1. eCar runs forward.       
 ```
 CarRunForword(carSpeed);    
 ```
 
-4. eCar runs backwards.           
+1. eCar runs backwards.           
 ```
 CarRunBack(carSpeed);       
 ```
 
-5. eCar turns left.           
+1. eCar turns left.           
 ```
 CarTurnLeft(carSpeed);        
 ```
 
-6. eCar turns right.         
+1. eCar turns right.         
 ```
 CarTurnRight(carSpeed);       
 ```
 
-7. eCar stop.           
+1. eCar stop.           
 ```
 CarStop();       
 ```
 
-### 10_WEB_app       
+### 11_WEB_app       
 1. Open the "web_app" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/33img.jpg)       
 
@@ -585,8 +609,14 @@ displayWindow(1, "right display window");
 displayWindow(2, "P: 100%");      
 ```
 
-### 11_eCar      
+### 12_eCar         
+1. Open the "eCar" example code and upload it to eCar:           
+![img](../_static/arduino_tutorial/img/39img.jpg)       
+
+2. Result:            
 The function of this code is the same as the function of eCar out of the factory, which is also the integration of the above project function, so no more parsing code!           
+
+Control method: [Link](../play_ecar/play_ecar.md)
 
 
 ## Other Resources (option)     
