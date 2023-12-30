@@ -372,8 +372,7 @@ The speaker produces 440 Hz sound all the time.
    
 ```{tip}
 Make sure the speaker is plugged into eCar!           
-```
-![img](../_static/arduino_tutorial/img/25img.jpg)     
+```      
 
 **Code analysis:**        
 1. Initialize the I2S master.       
@@ -562,14 +561,14 @@ LedBrightness(99);
 1. Open the "web_app" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/33img.jpg)       
 
-2. The phone searches and connects to mCar's wifi.       
+2. The phone or tablet searches and connects to mCar's wifi.       
 ![img](../_static/play_ecar/img/34img.jpg)     
 
 ```{tip}
 After connecting to Wifi, your phone may pop up a window saying it cannot connect to the network, please ignore it!          
 ```  
 
-3. Open your phone's browser and link to it by typing **"192.168.4.1"** in the address bar.    
+3. Open your phone or tablet's browser and link to it by typing **"192.168.4.1"** in the address bar.    
 ![img](../_static/play_ecar/img/35img.jpg)    
 
 4. The following screen should appear in your browser.      

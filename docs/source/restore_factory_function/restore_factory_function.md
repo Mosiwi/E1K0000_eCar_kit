@@ -25,11 +25,13 @@ The CH340 driver must be installed, otherwise the COM port cannot be found!
 1. Download the song file and unzip it: [Click me to download!](../_static/music/ecar_music.rar)    
 
 2. Copy the music downloaded in the previous step to the root directory of your SD card, as follows:         
-![img](../_static/restore_factory_function/img/3img.jpg)                
+![img](../_static/restore_factory_function/img/3img.jpg)              
+
 ```{tip}
 You need to use the SD card reader!                   
 ``` 
 
+![img](../_static/restore_factory_function/img/4img.jpg)     
 
 Now insert the SD card into the eCar and start the eCar to remote control it: [Link](../play_ecar/play_ecar.md)
 
