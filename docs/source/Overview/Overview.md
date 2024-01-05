@@ -58,10 +58,10 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | ZH1.25 to HX2.54 cable | 4P XH2.54 cable | --- |      
 | 1PCS | 1PCS | --- |    
 | ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | --- |     
-| M3\*8mm round-head screw | M1.5\*8mm round-head screw | M1.5 nuts |     
+| M3\*8mm Flat-head screw | M1.4\*8mm Flat-head screw | M1.4 nuts |     
 | 9PCS | 22PCS | 22PCS |      
 | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) |    
-| M2\*8mm round-head screw  | M2 nuts | M3\*35 dual-pass copper pillar |       
+| M2\*8mm Flat-head screw  | M2 nuts | M3\*35 dual-pass copper pillar |       
 | 2PCS | 2PCS | 5PCS |    
 | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/23img.jpg) |     
 | Type C USB cable  | Micro SD card | Phillips Screwdriver |   
