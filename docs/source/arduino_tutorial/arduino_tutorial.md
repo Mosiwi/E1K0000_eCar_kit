@@ -106,8 +106,9 @@ The CH340 driver must be installed, otherwise the COM port cannot be found!
 6. Open the serial monitor and select the baud rate:      
 ![img](../_static/arduino_tutorial/img/12img.jpg)    
 
-7. Result:         
-![img](../_static/arduino_tutorial/img/13img.jpg)       
+7. Result:               
+<img src="../_static/arduino_tutorial/img/13img.jpg" width=70% height=70%>         
+
 Click the touch stick of eCar, and the serial port monitor displays the data.       
 ![img](../_static/arduino_tutorial/img/14img.jpg)       
 
@@ -117,29 +118,29 @@ Click the touch stick of eCar, and the serial port monitor displays the data.
 Serial.begin(115200);
 ```
 
-2. After printing serial port data, no line breaks:       
+1. After printing serial port data, no line breaks:       
 ```
 Serial.print("T2(IO2) = ");    
 ```
 
-3. After printing touch data on the serial port, newline:       
+1. After printing touch data on the serial port, newline:       
 ```
 Serial.println(touchRead(T2));     
 ```
 
-4. Initialize the touch interrupt:    
+1. Initialize the touch interrupt:    
 ```
 // For tuch T2(IO02).
 touchAttachInterrupt(T2, gotTouchT2, threshold);
 ```
 
-5. Define the touch interrupt mode:     
+1. Define the touch interrupt mode:     
 ```
 // Touch ISR will be activated when touchRead is lower than the Threshold
 touchInterruptSetThresholdDirection(testingLower);
 ```
 
-6. Touch interrupt function:      
+1. Touch interrupt function:      
 ```
 // Interrupt function for touch T2(IO02).
 void gotTouchT2(){
@@ -419,7 +420,7 @@ char songs[][40]={
 };
 ```
 ```{note}
-The song names in the 2-dimensional array must be the same as the song names in the SD card, otherwise the songs cannot be played!        
+The name of the song in the 2D array must be the same as the name of the song in the SD card, and the song must be placed in the root directory of the SD card, or it will not play!               
 ``` 
 
 2. Initialize the I2S master.                    
@@ -435,6 +436,12 @@ audio.setVolume(21);   // 0...21
 4. Play the song.
 ```
 audio.connecttoFS(SD, songs[songIndex]);   
+```
+
+The second parameter is the path where the song is stored on the SD card.The default is the root directory of the SD card. You can also store the song in a different directory on your SD card and play the song with an absolute path:      
+```
+audio.connecttoFS(SD, "/directory/.../songName.mp3");
+audio.connecttoFS(SD, "/directory/.../songName.wav");    
 ```
 
 5. Read the remaining time for the currently playing song.       

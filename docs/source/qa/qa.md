@@ -13,7 +13,8 @@
 
 ## IR remote control does not work or send data short distance ?
 ----------------------------------------------------------------    
-1. <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes" target="_blank">IR remote control</a>    
+1. <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes" target="_blank">IR remote control</a>      
+2. The battery of the infrared remote control is low.           
 
 ## Unable to play music ?  
 -------------------------
