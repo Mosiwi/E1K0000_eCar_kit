@@ -38,8 +38,9 @@ Refer to: <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_l
 
 ```{note}
 It is possible that you have already installed these libraries, but the version of the library is different, and there will be an error message during the installation process. We recommend deleting the installed libraries and using the libraries we provide!            
-```   
-
+```     
+If you need to delete the library, refer to: <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_libraries/arduino_libraries.html#uninstalling-an-arduino-library" target="_blank">Link</a>     
+     
 Latest library resources（option）:      
 ESP32-audioI2S-master: <https://github.com/schreibfaul1/ESP32-audioI2S>    
 ESP32Servo: <https://madhephaestus.github.io/ESP32Servo/annotated.html>    
