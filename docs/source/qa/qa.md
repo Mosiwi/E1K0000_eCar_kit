@@ -23,5 +23,5 @@
 ## How to check the good or bad of the components ?      
 ---------------------------------------------------  
 1. Sample code for all the components is provided in the code of the kit, and you can verify the good and bad of the components.     
-
+&ensp;&ensp;[Link](../arduino_tutorial/arduino_tutorial.md)      
 

@@ -405,24 +405,21 @@ eCar will always loop the songs from the SD card.
 char songs[][40]={
   "1_Free Loop.mp3",
   "2_Dream It Possible.mp3",
-  "3_We Are The Brave.mp3",
+  "3_That girl.mp3",
   "4_My stupid heart.mp3",
-  "5_She.mp3",
-  "6_Big Big World.mp3",
-  "7_My Love.mp3",
-  "8_Hero.mp3",
-  "9_Home.mp3",
-  "10_I Got You.mp3",
-  "11_Just One Last Dance.mp3",
-  "12_Peaches.mp3",
-  "13_Valder Fields.mp3",
-  "14_You Raise Me Up.mp3"
+  "5_She.mp3",  
+  "6_We Are The Brave.mp3",
+  "7_Home.mp3",
+  "8_I Got You.mp3",
+  "9_Big Big World.mp3",
+  "10_Valder Fields.mp3"
 };
 ```
 ```{note}
 The name of the song in the 2D array must be the same as the name of the song in the SD card, and the song must be placed in the root directory of the SD card, or it will not play!               
-``` 
-
+```     
+![img](../_static/arduino_tutorial/img/45img.jpg)          
+   
 2. Initialize the I2S master.                    
 ```
 audio.setPinout(I2S_BCLK, I2S_LRC, I2S_DOUT);        

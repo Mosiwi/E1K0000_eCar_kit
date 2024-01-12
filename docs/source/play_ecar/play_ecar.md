@@ -27,6 +27,10 @@ eCar factory default code can be controlled in two ways: IR remote control and W
 | ▶ | Turn right |    
 | OK | Stop |    
 
+```{tip}
+If you run into problems, check out ["QA"](../qa/qa.md)!                           
+```   
+
 ## Web app control     
 ------------------
 1. Turn the power switch ON the eCar to the "ON" state.        
@@ -67,6 +71,9 @@ After connecting to Wifi, your phone may pop up a window saying it cannot connec
 | S | Turn on or off the ultrasonic measuring distance. | 
 | C | Reserve | 
 
+```{tip}
+If you run into problems, check out ["QA"](../qa/qa.md)!                           
+``` 
 
 --------
 **End!**    
