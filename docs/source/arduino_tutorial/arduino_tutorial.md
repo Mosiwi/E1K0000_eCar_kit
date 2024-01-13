@@ -1,5 +1,6 @@
 # Arduino_tutorial   
 ------------------
+Once you've installed and played eCar, you'll find it a lot of fun and want to learn how it works internally and add other features to it, so you'll need to learn what this tutorial is about.         
 
 ```{note}
 The following will override the ESP32 factory default code!     
@@ -85,29 +86,35 @@ All the following project code needs to be set according to the above parameters
 **Download the example code:**       
 [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.zip)     
 
+**If you need the eCar schematic and you haven't downloaded it:**      
+[Click me to download!](../_static/pdf/eCar_sch.PDF)      
+
 ### 1_Touch          
-1. Open the "touch" example code:         
+1. Use a type C USB cable to connect the USB port of the eCar and the USB port of the PC.        
+![img](../_static/arduino_tutorial/img/46img.jpg)      
+
+2. Open the "touch" example code:         
 ![img](../_static/arduino_tutorial/img/9img.jpg) 
 
-2. Select board type:    
+3. Select board type:    
 ![img](../_static/arduino_tutorial/img/6img.jpg)       
 
-3. Select COM port:          
+4. Select COM port:          
 ![img](../_static/arduino_tutorial/img/10img.jpg) 
 ```{note}
-The CH340 driver must be installed, otherwise the COM port cannot be found!              
-``` 
+The <a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">CH340 driver</a> must be installed, otherwise the COM port cannot be found!              
+```   
 
-4. ESP32 parameter Settings:     
+5. ESP32 parameter Settings:     
 ![img](../_static/arduino_tutorial/img/8img.jpg)     
 
-5. Upload the code:     
+6. Upload the code:     
 ![img](../_static/arduino_tutorial/img/11img.jpg)      
 
-6. Open the serial monitor and select the baud rate:      
+7. Open the serial monitor and select the baud rate:      
 ![img](../_static/arduino_tutorial/img/12img.jpg)    
 
-7. Result:               
+8. Result:               
 <img src="../_static/arduino_tutorial/img/13img.jpg" width=70% height=70%>         
 
 Click the touch stick of eCar, and the serial port monitor displays the data.       
@@ -119,29 +126,29 @@ Click the touch stick of eCar, and the serial port monitor displays the data.
 Serial.begin(115200);
 ```
 
-1. After printing serial port data, no line breaks:       
+2. After printing serial port data, no line breaks:       
 ```
 Serial.print("T2(IO2) = ");    
 ```
 
-1. After printing touch data on the serial port, newline:       
+3. After printing touch data on the serial port, newline:       
 ```
 Serial.println(touchRead(T2));     
 ```
 
-1. Initialize the touch interrupt:    
+4. Initialize the touch interrupt:    
 ```
 // For tuch T2(IO02).
 touchAttachInterrupt(T2, gotTouchT2, threshold);
 ```
 
-1. Define the touch interrupt mode:     
+5. Define the touch interrupt mode:     
 ```
 // Touch ISR will be activated when touchRead is lower than the Threshold
 touchInterruptSetThresholdDirection(testingLower);
 ```
 
-1. Touch interrupt function:      
+6. Touch interrupt function:      
 ```
 // Interrupt function for touch T2(IO02).
 void gotTouchT2(){
@@ -613,7 +620,7 @@ bool ap = 1;
 
 2. In AP (Access Point) mode, it sets its own Wifi name. In Station mode, set the name of the WiFi to connect to.               
 ```
-const char* ssid = "mCar";          
+const char* ssid = "eCar";          
 ```
 
 3. In AP (Access Point) mode, it sets its own Wifi password. In Station mode, set the WiFi password to connect to. If password is empty, no password is required.                                 
