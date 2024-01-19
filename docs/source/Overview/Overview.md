@@ -19,6 +19,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 
 ## Specification    
 ----------------
+• Processor: [ESP32-wroom-32e](../_static/pdf/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)          
 • Operating voltage: 3.3V   
 • Maximum output power: 3.3V/2A  
 • Charge current: 1A   
