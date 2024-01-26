@@ -1,5 +1,6 @@
 # QA    
 ----------
+Get Technical support(E-mail): mosiwi@outlook.com      
 
 ## The USB port cannot be identified ?    
 --------------------------------------

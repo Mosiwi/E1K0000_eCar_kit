@@ -11,7 +11,8 @@ Tools:
 2. Type C USB cable 
 
 ## Install the CH340 driver:      
-----------------------------     
+----------------------------
+eCar is integrated with CH340 USB to TTL serial port, used for eCar burning code, you must install the CH340 driver before use.                
 <a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
 ```{tip}
 If you've already done this step, you can skip it!           
@@ -19,6 +20,7 @@ If you've already done this step, you can skip it!
 
 ## Install the Arduino IDE                  
 --------------------------        
+The Aduino IDE is used to write C++ programs for eCar.        
 <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html" target="_blank">Click me</a>       
 ```{tip}
 If you've already done this step, you can skip it!   
@@ -26,6 +28,7 @@ If you've already done this step, you can skip it!
 
 ## Installing libraries                 
 -----------------------                           
+Integrates the underlying drivers and APIs of eCar for easy programming.          
 1. Download the library file and unzip it.   
 [Click me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)      
 
@@ -49,6 +52,7 @@ IRremote: <https://github.com/Arduino-IRremote/Arduino-IRremote>
 
 ## Configure the Arduino IDE for ESP32       
 --------------------------------------               
+Configuring arduino IDE can be used to program ESP32 module, if not configuring Arduino IDE cannot be used to program ESP32 module.         
 1. Open the arduino IDE，click "File" > "Preferences"，as shown below:      
 ![img](../_static/arduino_tutorial/img/1img.jpg)    
 
@@ -652,8 +656,7 @@ Control method: [Link](../play_ecar/play_ecar.md)
 
 ## Other Resources (option)     
 ---------------------------        
-<a href="https://docs.mosiwi.com/en/latest/arduino/A1D0000_uno_r3/A1D0000_uno_r3.html#arduino-programming-language" target="_blank">Arduino programming language</a>       
-
+<a href="https://docs.mosiwi.com/en/latest/arduino/A1D0000_uno_r3/A1D0000_uno_r3.html#arduino-programming-language" target="_blank">Arduino programming language</a>            
 <a href="https://docs.mosiwi.com/projects/c1k0000/en/latest/" target="_blank">Arduino Getting Started Learning Kit</a>     
 
 --------
