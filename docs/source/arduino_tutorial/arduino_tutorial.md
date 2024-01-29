@@ -13,7 +13,7 @@ Tools:
 ## Install the CH340 driver:      
 ----------------------------
 eCar is integrated with CH340 USB to TTL serial port, used for eCar burning code, you must install the CH340 driver before use.                
-<a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
+Detailed tutorial: <a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
 ```{tip}
 If you've already done this step, you can skip it!           
 ``` 
@@ -21,7 +21,7 @@ If you've already done this step, you can skip it!
 ## Install the Arduino IDE                  
 --------------------------        
 The Aduino IDE is used to write C++ programs for eCar.        
-<a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html" target="_blank">Click me</a>       
+Detailed tutorial: <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_ide/arduino_ide.html" target="_blank">Click me</a>       
 ```{tip}
 If you've already done this step, you can skip it!   
 ```
