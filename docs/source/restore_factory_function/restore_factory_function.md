@@ -14,7 +14,9 @@ If you've already done this step, you can skip it!
 3. Download the burning tool: <a href="https://www.espressif.com.cn/en/support/download/other-tools" target="_blank">Link</a>       
 ![img](../_static/restore_factory_function/img/1img.jpg)       
 
-4. Start the burn tool and burn bin files downloaded above into eCar as follows:           
+4. Connect the PC to the eCar using a type C USB cable.    
+
+5. Start the burn tool and burn bin files downloaded above into eCar as follows:           
 ![img](../_static/restore_factory_function/img/2img.jpg)   
 ```{note}
 The CH340 driver must be installed, otherwise the COM port cannot be found!              

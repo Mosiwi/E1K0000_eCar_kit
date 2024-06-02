@@ -15,9 +15,14 @@
 ----------------------------------------------------------------    
 1. <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes" target="_blank">IR remote control</a>    
 
+## Can't open the control page on your phone ?  
+-------------------------
+1. The phone must turn off mobile data and link to eCar's WiFi.   
+![img](../_static/qa/img/1img.jpg)
+
 ## Unable to play music ?  
 -------------------------
-1. Make sure that the SD card is inserted into the SD card holder of eCar.    
+1. Make sure that the SD card is inserted into the SD card holder of eCar.     
 
 ## How to check the good or bad of the components ?      
 ---------------------------------------------------  

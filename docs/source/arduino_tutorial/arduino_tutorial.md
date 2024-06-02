@@ -494,10 +494,13 @@ Four motors and two leds are controlled through the I2C communication protocol.
 • The I2C speed is 100Khz, and the slave address is 0x2f.     
 • The PWM frequency between the motor and the LED is about 200Hz.     
 • Instruction format: 0x2f + device number + data.     
-• Device number: 0=Motor1, 1=Motor2, 2=motor3, 3=motor4, 4=LED1, 5=LED2.     
-• Data: 0-199;   
-• ......0-99: motor reverse speed/LED brightness, from small to large;   
-• ......100-199: motor forward speed, from small to large (mapped to 0-99).          
+1. Device number: 0=Motor1, 1=Motor2, 2=motor3, 3=motor4.          
+• data: 0-99, motors reverse speed, from small to large;   
+• data: 100-199, motors forward speed, from small to large (mapped to 0-99).           
+2. Device number: 4=LED1, 5=LED2.       
+• data: 0-99, LEDs brightness, from small to large;   
+3. 6=Reset.      
+• data=1, reset the MCU.    
 
 More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
 More information about I2C communication protocol: <a href="https://docs.mosiwi.com/en/latest/various_resources/iic/iic.html" target="_blank">Link</a>      
@@ -506,7 +509,7 @@ More information about I2C communication protocol: <a href="https://docs.mosiwi.
 1. Open the "motor" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/31img.jpg)       
 
-2. Result:       
+1. Result:       
 eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.        
 
 **Code analysis:**        
@@ -562,19 +565,19 @@ LedBrightness(99);
 ![img](../_static/arduino_tutorial/img/33img.jpg)       
 
 2. The phone or tablet searches and connects to mCar's wifi.       
-![img](../_static/play_ecar/img/34img.jpg)     
+![img](../_static/arduino_tutorial/img/34img.jpg)     
 
 ```{tip}
 After connecting to Wifi, your phone may pop up a window saying it cannot connect to the network, please ignore it!          
 ```  
 
 3. Open your phone or tablet's browser and link to it by typing **"192.168.4.1"** in the address bar.    
-![img](../_static/play_ecar/img/35img.jpg)    
+![img](../_static/arduino_tutorial/img/35img.jpg)    
 
-4. The following screen should appear in your browser.      
-![img](../_static/play_ecar/img/36img.jpg) 
+1. The following screen should appear in your browser.      
+![img](../_static/arduino_tutorial/img/36img.jpg) 
 
-5. Result:       
+1. Result:       
 Open the serial monitor of Arduino IDE, click or press the button on the Web App, and the serial monitor prints different values.             
 ![img](../_static/arduino_tutorial/img/37img.jpg)     
 

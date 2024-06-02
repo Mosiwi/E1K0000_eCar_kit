@@ -38,7 +38,12 @@ After connecting to Wifi, your phone may pop up a window saying it cannot connec
 ``` 
 
 3. Open your phone's browser and link to it by typing **"192.168.4.1"** in the address bar.    
-![img](../_static/play_ecar/img/4img.jpg)    
+![img](../_static/play_ecar/img/4img.jpg)      
+
+```{note}
+You must turn off the mobile data of your phone, or you may not be able to open the website!      
+``` 
+![img](../_static/play_ecar/img/6img.jpg)
 
 4. The following screen should appear in your browser, and now you can control mCar!     
 ![img](../_static/play_ecar/img/5img.jpg)    
