@@ -499,7 +499,7 @@ Four motors and two leds are controlled through the I2C communication protocol.
 • data: 100-199, motors forward speed, from small to large (mapped to 0-99).           
 2. Device number: 4=LED1, 5=LED2.       
 • data: 0-99, LEDs brightness, from small to large;   
-3. 6=Reset.      
+3. Device number: 6=Reset.      
 • data=1, reset the MCU.    
 
 More information about arduino I2C: <a href="https://www.arduino.cc/reference/en/language/functions/communication/wire/" target="_blank">Link</a>       
