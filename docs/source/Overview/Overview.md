@@ -77,5 +77,5 @@ Click on the name in the list to get detailed specifications!
 --------------------     
 1. Schematic diagram: [Click me to download!](../_static/pdf/eCar_sch.PDF)   
 2. Schematic diagram: [Click me to download!](../_static/pdf/eCar_pcb.PDF)    
-3. Arduino example code download: [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.rarr)   
+3. Arduino example code download: [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.rar)   
 4. Arduino library files download: [Click me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)  
