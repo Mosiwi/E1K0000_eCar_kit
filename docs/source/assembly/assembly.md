@@ -20,8 +20,8 @@ Assembly process:
 | ![img](../_static/assembly/img/6img.jpg) |    
 | The image after installation. |    
 | ![img](../_static/assembly/img/7img.jpg) | 
-| Motor wiring. |
-| |   
+| Please connect the motor cable according to the silk screen mark on the PCB. |
+| ![img](../_static/assembly/img/24img.jpg) |   
 
 Step2
 ----- 
@@ -51,104 +51,105 @@ Assembly process:
 |:-:|       
 | ![img](../_static/assembly/img/16img.jpg) |    
 | The image after installation. |    
-| ![img](../_static/assembly/img/17img.jpg) | 
+| ![img](../_static/assembly/img/17img.jpg) |   
+| Battery box wiring. |    
+| ![img](../_static/assembly/img/23img.jpg) | 
 
 Step4
 ----- 
 Prepare components:
 | Step3 Install the finished part. | Speaker |        
 | :--: | :--: |           
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |      
+| ![img](../_static/assembly/img/18img.jpg) | ![img](../_static/assembly/img/19img.jpg) |      
 
 Assembly process:     
 | Remove the sticker on the back of the speaker and stick the speaker to the battery case. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/20img.jpg) |     
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/21img.jpg) |     
 | Speaker wiring. |
-| |  
+| ![img](../_static/assembly/img/22img.jpg) |  
 
 Step5
 ----- 
 Prepare tools and components:      
 | Acrylic board | Servo | M2x8mm screw 2Pcs |      
 | :--: | :--: | :--: |               
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |  |        
+| ![img](../_static/assembly/img/25img.jpg) | ![img](../_static/assembly/img/26img.jpg) | ![img](../_static/assembly/img/27img.jpg) |        
 | M2 Nut 2Pcs | Screwdriver | |   
-| | | ![img](../_static/assembly/img/5img.jpg) |
+| ![img](../_static/assembly/img/28img.jpg) | ![img](../_static/assembly/img/5img.jpg) | |
 
 Assembly process:     
 | Fix the servo to the acrylic plate. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/29img.jpg) |     
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) |     
-| Servo wiring. |
-| |      
+| ![img](../_static/assembly/img/30img.jpg) |     
 
 Step6
 ----- 
 Prepare tools and components:      
-| Ultrasonic module | Ultrasonic module bracket | M1.6x6mm screw 4Pcs |      
-| :--: | :--: | :--: |               
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |  |        
-| M1.6 Nut 4Pcs | Screwdriver | |   
-| | ![img](../_static/assembly/img/5img.jpg) | |
+| Step4 Install the finished part. | Step5 Install the finished part. |             
+| :--: | :--: |                  
+| ![img](../_static/assembly/img/21img.jpg) | ![img](../_static/assembly/img/30img.jpg) |            
 
 Assembly process:     
-| Fix the ultrasonic module on the bracket. |      
+| Before assembling the two parts, the wires of the servo should be connected. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/36img.jpg) |    
+| Assemble the two parts. |    
+| ![img](../_static/assembly/img/37img.jpg) |    
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) |   
+| ![img](../_static/assembly/img/38img.jpg) |  
 
 Step7
 ----- 
 Prepare tools and components:      
-| Step4 Install the finished part. | Step5 Install the finished part. | Step6 Install the finished part. |          
-| :--: | :--: | :--: |                   
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |  |          
+| Ultrasonic module | Ultrasonic module bracket | M1.6x6mm screw 4Pcs |      
+| :--: | :--: | :--: |               
+| ![img](../_static/assembly/img/32img.jpg) | ![img](../_static/assembly/img/33img.jpg) | ![img](../_static/assembly/img/4img.jpg) |        
+| M1.6 Nut 4Pcs | Screwdriver | |   
+| ![img](../_static/assembly/img/31img.jpg) | ![img](../_static/assembly/img/5img.jpg) | |
 
 Assembly process:     
-| Before assembling the two parts, the wires of the servo and ultrasonic module should be connected. |      
+| Fix the ultrasonic module on the bracket. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |    
-| Assemble the two parts. |    
-| ![img](../_static/assembly/img/ximg.jpg) |    
+| ![img](../_static/assembly/img/34img.jpg) |     
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) |  
+| ![img](../_static/assembly/img/35img.jpg) |   
 
-Finally, check that the wiring is correct.
- 
-
-Step6
+Step8
 ----- 
 Prepare tools and components:      
-| Step5 Install the finished part. | Servo shaft bracket | M1.6x6mm screw 1Pcs |      
+| Step6 Install the finished part. | Servo shaft bracket | M1.6x6mm screw 1Pcs |      
 | :--: | :--: | :--: |               
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |  |        
+| ![img](../_static/assembly/img/40img.jpg) | ![img](../_static/assembly/img/39img.jpg) | ![img](../_static/assembly/img/4img.jpg) |        
 | Screwdriver | | |   
 | ![img](../_static/assembly/img/5img.jpg) | | |
 
 Assembly process:     
 | Fix the bracket on the servo shaft. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/41img.jpg) |     
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) | 
+| ![img](../_static/assembly/img/42img.jpg) | 
 
 
-Step8
+Step9
 ----- 
 Prepare tools and components:      
-| Step6 Install the finished part. | Step7 Install the finished part. |          
+| Step7 Install the finished part. | Step8 Install the finished part. |          
 | :--: | :--: |                  
-| ![img](../_static/assembly/img/ximg.jpg) | ![img](../_static/assembly/img/ximg.jpg) |          
+| ![img](../_static/assembly/img/35img.jpg) | ![img](../_static/assembly/img/42img.jpg) |          
 
 Assembly process:     
 | Fix the ultrasonic module bracket on the servo bracket. |      
 |:-:|       
-| ![img](../_static/assembly/img/ximg.jpg) |     
+| ![img](../_static/assembly/img/43img.jpg) |     
 | The image after installation. |    
-| ![img](../_static/assembly/img/ximg.jpg) | 
+| ![img](../_static/assembly/img/44img.jpg) |   
+|  Ultrasonic module wiring |    
+| ![img](../_static/assembly/img/45img.jpg) |    
+
+End!
