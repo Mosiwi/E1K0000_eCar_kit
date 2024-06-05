@@ -13,6 +13,10 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
    Although the PDF tutorial was downloaded,
    parts of this tutorial still need to be obtained from the Internet.
 
+.. note::
+
+   After unpacking the product, the product has its own factory program, which can be used to assemble the product, please do not burn the program to the motherboard before assembly!  
+
 .. toctree::
    :maxdepth: 3
    :caption: E1K0000_eCar_kit:
