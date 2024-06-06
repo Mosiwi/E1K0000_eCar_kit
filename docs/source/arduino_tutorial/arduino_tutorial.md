@@ -564,20 +564,23 @@ LedBrightness(99);
 1. Open the "web_app" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/33img.jpg)       
 
-2. The phone or tablet searches and connects to mCar's wifi.       
+2. Close the mobile phone's mobile network data, otherwise it may not enter the Web page control page!     
+![img](../_static/arduino_tutorial/img/45img.jpg)     
+
+3. The phone or tablet searches and connects to mCar's wifi.       
 ![img](../_static/arduino_tutorial/img/34img.jpg)     
 
 ```{tip}
 After connecting to Wifi, your phone may pop up a window saying it cannot connect to the network, please ignore it!          
 ```  
 
-3. Open your phone or tablet's browser and link to it by typing **"192.168.4.1"** in the address bar.    
+4. Open your phone or tablet's browser and link to it by typing **"192.168.4.1"** in the address bar.    
 ![img](../_static/arduino_tutorial/img/35img.jpg)    
 
-1. The following screen should appear in your browser.      
+5. The following screen should appear in your browser.      
 ![img](../_static/arduino_tutorial/img/36img.jpg) 
 
-1. Result:       
+6. Result:       
 Open the serial monitor of Arduino IDE, click or press the button on the Web App, and the serial monitor prints different values.             
 ![img](../_static/arduino_tutorial/img/37img.jpg)     
 

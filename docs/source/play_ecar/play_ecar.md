@@ -41,7 +41,7 @@ After connecting to Wifi, your phone may pop up a window saying it cannot connec
 ![img](../_static/play_ecar/img/4img.jpg)      
 
 ```{note}
-You must turn off the mobile data of your phone, or you may not be able to open the website!      
+Close the mobile phone's mobile network data, otherwise it may not enter the Web page control page!          
 ``` 
 ![img](../_static/play_ecar/img/6img.jpg)
 
