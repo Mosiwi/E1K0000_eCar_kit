@@ -9,8 +9,8 @@ Tools:
 1. PC(Win10 or uper)     
 2. Type C USB cable 
 
-## Install the CH340 driver:      
-----------------------------     
+## Install the CH340 driver      
+---------------------------     
 <a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
 ```{tip}
 If you've already done this step, you can skip it!           

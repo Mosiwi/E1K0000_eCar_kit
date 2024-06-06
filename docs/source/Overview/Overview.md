@@ -4,10 +4,9 @@
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.             
 
 **Functional description**      
-• Wifi, Web_App control.      
-• Power display (Web_App).    
+• Web_App(Wifi) and infrared remote control.          
 • 4 Motor drive (With LED car lights).           
-• Speakers, MP3 players play songs.            
+• Speakers, MP3 players play songs (I2S).            
 • SD card for storing songs, etc.          
 • Touch music alarm.             
 • Full color RGB LED.    
@@ -15,13 +14,18 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Servo control ultrasonic module, etc.    
 • Compatible with LEGO extensions.     
 • IO ports are reserved to expand other functions.           
-• With USB port charging function (5V).        
+• With USB port charging function (5V).     
+• With power display.         
+• Repeatable programming and burning.           
 
 ## Specification    
-----------------
-• Operating voltage: 3.3V   
-• Maximum output power: 3.3V/2A  
-• Charge current: 1A   
+----------------     
+• Main control chip: ESP32-WROOM-32E      
+• System operating voltage: 3.3V        
+• Operating voltage of IO port: 3.3V
+• Maximum output power: 3.3V/2A   
+• Maximum output power: 5V/2A 
+• Maximum charge current: 5V/2A   
 • Power of speaker: 8Ω/2W      
 • Motor speed: 245rpm/6V     
 
@@ -36,7 +40,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Maximum charging voltage: 4.2V    
 • Nominal voltage: 3.7V   
 • End-off voltage: 2.75V    
-• Minimum charging current: >1A     
+• Minimum charging current: >2A     
 • Minimum discharge current: >4A   
 ![img](../_static/overview/img/21img.jpg)      
 
@@ -73,9 +77,11 @@ This kit provides rich and detailed tutorial materials, very simple installation
 Click on the name in the list to get detailed specifications!   
 ```
 
-## Resource Download     
---------------------     
-1. Schematic diagram: [Click me to download!](../_static/pdf/eCar_sch.PDF)   
-2. Schematic diagram: [Click me to download!](../_static/pdf/eCar_pcb.PDF)    
-3. Arduino example code download: [Click me to download!](../_static/arduino_tutorial/example_code/ecar_arduino_example_code.rar)   
-4. Arduino library files download: [Click me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)  
+## Hardware resources download     
+------------------------------       
+1. PCB diagram: [Click me to download!](../_static/pdf/eCar_pcb.PDF)  
+2. PCB CAD file: [Click me to download!](../_static/3d/eCar.DXF)      
+3. Schematic diagram: [Click me to download!](../_static/pdf/eCar_sch.PDF) 
+4. ESP32-WROOM-32E datasheet: [Click me to download!](../_static/pdf/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)     
+5. 3D acrylic_board: [Click me to download!](../_static/3d/Acrylic_board.STL)         
+6. 3D ultrasonic module bracket: [Click me to download!](../_static/3d/Ultrasonic_module_bracket.STL)    

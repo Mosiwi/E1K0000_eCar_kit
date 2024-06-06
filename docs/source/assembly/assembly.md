@@ -108,7 +108,7 @@ Step7 install battery and SD card
 Prepare components:   
 | Step6 Install the finished part. | [18650 lithium battery](../Overview/Overview.md/#recommended-battery-specifications)(Buy it yourself.) | Battery case cover |           
 | :--: | :--: | :--: |                     
-| ![img](../_static/assembly/img/48img.jpg) | ![img](../_static/assembly/img/49img.jpg) | ![img](../_static/assembly/img/50img.jpg) |  
+| ![img](../_static/assembly/img/40img.jpg) | ![img](../_static/assembly/img/49img.jpg) | ![img](../_static/assembly/img/50img.jpg) |  
 | MicroSD card | | |    
 | ![img](../_static/assembly/img/47img.jpg) | | |             
 
@@ -143,7 +143,7 @@ Assembly process:
 | ![img](../_static/assembly/img/42img.jpg) | 
 
 Step10 install ultrasonic module
-------------------------------- 
+-------------------------------- 
 Prepare tools and components:      
 | Ultrasonic module | Ultrasonic module bracket | M1.6x6mm screw 4Pcs |      
 | :--: | :--: | :--: |               
@@ -158,8 +158,8 @@ Assembly process:
 | The image after installation. |    
 | ![img](../_static/assembly/img/35img.jpg) |   
 
-Step11 Install PCB and acrylic   
------------------------------- 
+Step11 Install the ultrasonic module bracket   
+-------------------------------------------- 
 Prepare tools and components:      
 | Step9 Install the finished part. | Step10 Install the finished part. |          
 | :--: | :--: |                  
