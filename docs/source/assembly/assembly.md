@@ -106,7 +106,7 @@ Assembly process:
 Step7 install battery and SD card
 ---------------------------------   
 Prepare components:   
-| Step6 Install the finished part. | [18650 lithium battery](../Overview/#recommended-battery-specifications)(Buy it yourself.) | Battery case cover |           
+| Step6 Install the finished part. | [18650 lithium battery](../Overview/Overview.md/#recommended-battery-specifications)(Buy it yourself.) | Battery case cover |           
 | :--: | :--: | :--: |                     
 | ![img](../_static/assembly/img/48img.jpg) | ![img](../_static/assembly/img/49img.jpg) | ![img](../_static/assembly/img/50img.jpg) |  
 | MicroSD card | | |    
