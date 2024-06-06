@@ -59,15 +59,15 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | Motor fixed parts | Wheel | Battery case |      
 | 4PCS | 4PCS | 1PCS |               
 | ![Img](../_static/overview/img/10img.jpg) | ![Img](../_static/overview/img/11img.jpg) | ![Img](../_static/overview/img/12img.jpg) |     
-| ZH1.25 to HX2.54 cable | 4P XH2.54 cable | --- |      
-| 1PCS | 1PCS | --- |    
-| ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | --- |     
-| M3\*8mm round-head screw | M1.5\*8mm round-head screw | M1.5 nuts |     
-| 9PCS | 22PCS | 22PCS |      
-| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) |    
-| M2\*8mm round-head screw  | M2 nuts | M3\*35 dual-pass copper pillar |       
-| 2PCS | 2PCS | 5PCS |    
-| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/23img.jpg) |     
+| ZH1.25 to HX2.54 cable | 4P XH2.54 cable | Servo shaft |      
+| 1PCS | 1PCS | 1PCS |    
+| ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | ![Img](../_static/overview/img/24img.jpg) |     
+| M3x8mm round-head screw | M1.6x6mm round-head screw | M1.6x8mm round-head screw |     
+| 8PCS | 21PCS | 2PCS |      
+| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/25img.jpg) | ![Img](../_static/overview/img/25img.jpg) |    
+| M1.6 nuts  | --- | M3x30 dual-pass copper pillar |       
+| 6PCS | --- | 5PCS |    
+| ![Img](../_static/overview/img/16img.jpg) | --- | ![Img](../_static/overview/img/23img.jpg) |     
 | Type C USB cable  | Micro SD card | Phillips Screwdriver |   
 | 1PCS | 1PCS | 1PCS |    
 | ![Img](../_static/overview/img/18img.jpg) | ![Img](../_static/overview/img/19img.jpg) | ![Img](../_static/overview/img/20img.jpg) |      
