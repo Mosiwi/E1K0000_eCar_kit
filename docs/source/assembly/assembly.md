@@ -178,7 +178,7 @@ Step12 Install the RGB LED module
 ---------------------------------- 
 Prepare tools and components:      
 | Step11 Install the finished part. | RGB LED module | Latch 2Pcs |       
-| :--: | :--: |                  
+| :--: | :--: | :--: |                       
 | ![img](../_static/assembly/img/54img.jpg) | ![img](../_static/assembly/img/53img.jpg) | ![img](../_static/assembly/img/55img.jpg) |            
 
 Assembly process:     
