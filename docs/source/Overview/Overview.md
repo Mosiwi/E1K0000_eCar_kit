@@ -1,6 +1,6 @@
 # Overview    
 ----------
-![Img](../_static/overview/img/0img.png)    
+![Img](../_static/overview/img/0img.jpg)    
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.             
 
 **Functional description**      
@@ -65,9 +65,9 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | M3x8mm round-head screw | M1.6x6mm round-head screw | M1.6x8mm round-head screw |     
 | 8PCS | 21PCS | 2PCS |      
 | ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/25img.jpg) | ![Img](../_static/overview/img/25img.jpg) |    
-| M1.6 nuts  | --- | M3x30 dual-pass copper pillar |       
-| 6PCS | --- | 5PCS |    
-| ![Img](../_static/overview/img/16img.jpg) | --- | ![Img](../_static/overview/img/23img.jpg) |     
+| M1.6 nuts  | Latch | M3x30 dual-pass copper pillar |       
+| 6PCS | 2PCS | 5PCS |    
+| ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/27img.jpg) | ![Img](../_static/overview/img/23img.jpg) |     
 | Type C USB cable  | Micro SD card | Phillips Screwdriver |   
 | 1PCS | 1PCS | 1PCS |    
 | ![Img](../_static/overview/img/18img.jpg) | ![Img](../_static/overview/img/19img.jpg) | ![Img](../_static/overview/img/20img.jpg) |      

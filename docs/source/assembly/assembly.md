@@ -174,4 +174,21 @@ Assembly process:
 |  Ultrasonic module wiring |    
 | ![img](../_static/assembly/img/45img.jpg) |    
 
+Step12 Install the RGB LED module        
+---------------------------------- 
+Prepare tools and components:      
+| Step11 Install the finished part. | RGB LED module | Latch 2Pcs |       
+| :--: | :--: |                  
+| ![img](../_static/assembly/img/54img.jpg) | ![img](../_static/assembly/img/53img.jpg) | ![img](../_static/assembly/img/55img.jpg) |            
+
+Assembly process:     
+| Fix the RGB LED module to the acrylic plate. |      
+|:-:|       
+| ![img](../_static/assembly/img/56img.jpg) |     
+|  RGB LED module wiring |    
+| ![img](../_static/assembly/img/57img.jpg) |   
+| The image after installation. |    
+| ![img](../_static/assembly/img/58img.jpg) |   
+ 
+
 End!
