@@ -3,7 +3,7 @@
 ![Img](../_static/overview/img/0img.jpg)    
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.             
 
-**Functional description**      
+**Functional description:**      
 • Web_App(Wifi) and infrared remote control.          
 • 4 Motor drive (With LED car lights).           
 • Speakers, MP3 players play songs (I2S).            
@@ -18,12 +18,10 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • With power display.         
 • Repeatable programming and burning.           
 
-## Functional diagram   
----------------------
+## Functional diagram and specification  
+---------------------------------------
 ![img](../_static/overview/img/22img.jpg)      
-
-## Specification    
-----------------     
+    
 • Main control chip: ESP32-WROOM-32E      
 • System operating voltage: 3.3V        
 • Operating voltage of IO port: 3.3V
