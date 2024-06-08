@@ -129,7 +129,7 @@ After turning on the power switch, the left power indicator LED will light up.
 Step9 install servo shaft
 ------------------------- 
 Prepare tools and components:      
-| Step7 Install the finished part. | Servo shaft bracket | M1.6x6mm screw 1Pcs |      
+| Step8 Install the finished part. | Servo shaft bracket | M1.6x6mm screw 1Pcs |      
 | :--: | :--: | :--: |               
 | ![img](../_static/assembly/img/40img.jpg) | ![img](../_static/assembly/img/39img.jpg) | ![img](../_static/assembly/img/4img.jpg) |        
 | Screwdriver | | |   
@@ -148,8 +148,8 @@ Prepare tools and components:
 | Ultrasonic module | Ultrasonic module bracket | M1.6x6mm screw 4Pcs |      
 | :--: | :--: | :--: |               
 | ![img](../_static/assembly/img/32img.jpg) | ![img](../_static/assembly/img/33img.jpg) | ![img](../_static/assembly/img/4img.jpg) |        
-| M1.6 Nut 4Pcs | Screwdriver | |   
-| ![img](../_static/assembly/img/31img.jpg) | ![img](../_static/assembly/img/5img.jpg) | |
+| M1.6 Nut 4Pcs | Screwdriver | 4P connection cable |   
+| ![img](../_static/assembly/img/31img.jpg) | ![img](../_static/assembly/img/5img.jpg) | ![img](../_static/assembly/img/59img.jpg) |
 
 Assembly process:     
 | Fix the ultrasonic module on the bracket. |      
@@ -179,7 +179,9 @@ Step12 Install the RGB LED module
 Prepare tools and components:      
 | Step11 Install the finished part. | RGB LED module | Latch 2Pcs |       
 | :--: | :--: | :--: |                       
-| ![img](../_static/assembly/img/54img.jpg) | ![img](../_static/assembly/img/53img.jpg) | ![img](../_static/assembly/img/55img.jpg) |            
+| ![img](../_static/assembly/img/54img.jpg) | ![img](../_static/assembly/img/53img.jpg) | ![img](../_static/assembly/img/55img.jpg) | 
+| 3P connection cable | | |    
+| ![img](../_static/assembly/img/60img.jpg) | | |                
 
 Assembly process:     
 | Fix the RGB LED module to the acrylic plate. |      

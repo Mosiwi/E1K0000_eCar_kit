@@ -18,6 +18,10 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • With power display.         
 • Repeatable programming and burning.           
 
+## Functional diagram   
+---------------------
+![img](../_static/overview/img/22img.jpg)      
+
 ## Specification    
 ----------------     
 • Main control chip: ESP32-WROOM-32E      
@@ -28,10 +32,6 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Maximum charge current: 5V/2A   
 • Power of speaker: 8Ω/2W      
 • Motor speed: 245rpm/6V     
-
-## Interface   
-------------
-![img](../_static/overview/img/22img.jpg)
 
 ## Recommended battery specifications      
 -------------------------------------
