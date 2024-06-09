@@ -37,10 +37,10 @@ Assembly process:
 | The image after installation. |    
 | ![img](../_static/assembly/img/11img.jpg) | 
 
-Step3 Installation and wiring of battery case
+Step3 Installation and wiring of battery box
 --------------------------------------------- 
 Prepare tools and components:     
-| Step2 Install the finished part. | Cell box | 3Mx30mm copper pillars 4Pcs |       
+| Step2 Install the finished part. | battery box | 3Mx30mm copper pillars 4Pcs |       
 | :--: | :--: | :--: |           
 | ![img](../_static/assembly/img/12img.jpg) | ![img](../_static/assembly/img/13img.jpg) | ![img](../_static/assembly/img/14img.jpg) |    
 | M3X8MM screw 4Pcs | Screwdriver | |   
@@ -163,7 +163,7 @@ Step11 Install the ultrasonic module bracket
 Prepare tools and components:      
 | Step9 Install the finished part. | Step10 Install the finished part. |          
 | :--: | :--: |                  
-| ![img](../_static/assembly/img/35img.jpg) | ![img](../_static/assembly/img/42img.jpg) |          
+| ![img](../_static/assembly/img/42img.jpg) | ![img](../_static/assembly/img/35img.jpg) |          
 
 Assembly process:     
 | Fix the ultrasonic module bracket on the servo bracket. |      

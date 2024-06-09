@@ -19,7 +19,7 @@
 1. Make sure that the Arduino IDE is set to the correct parameters, as shown below:          
 ![img](../_static/qa/img/4img.jpg)          
 
-## IR remote control does not work or send data short distance ?
+## IR remote control does not work?
 ----------------------------------------------------------------    
 1. <a href="https://docs.mosiwi.com/en/latest/outsourcing/nec_ir_remote_control/nec_ir_remote_control.html#notes" target="_blank">IR remote control</a>    
 

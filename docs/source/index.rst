@@ -21,14 +21,14 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
    :maxdepth: 3
    :caption: E1K0000_eCar_kit:
 
-   Overview <Overview/Overview.md>
-   Assembly <assembly/assembly.md>   
-   Play eCar <play_ecar/play_ecar.md> 
-   Arduino_tutorial <arduino_tutorial/arduino_tutorial.md>
-   Restore factory function <restore_factory_function/restore_factory_function.md>  
+   1. Overview <Overview/Overview.md>
+   2. Assembly <assembly/assembly.md>   
+   3. Play eCar <play_ecar/play_ecar.md> 
+   4. Arduino_tutorial <arduino_tutorial/arduino_tutorial.md> 
 
 .. toctree::
    :maxdepth: 3
    :caption: Other:
 
+   Restore factory function <restore_factory_function/restore_factory_function.md> 
    QA <qa/qa.md>    

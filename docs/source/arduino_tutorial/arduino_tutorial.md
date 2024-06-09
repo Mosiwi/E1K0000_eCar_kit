@@ -32,13 +32,13 @@ If you've already done this step, you can skip it!
 ## Installing libraries                 
 -----------------------                           
 1. Download the library file and unzip it.   
-[Click me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.rar)      
+[Click me to download!](../_static/arduino_tutorial/libraries/ecar_arduino_libraries.zip)      
 
 ```{tip}
 The library files downloaded above are tested by us, they may not be the latest library files!       
 ```   
 
-2. Install the library files downloaded above into the Arduino IDE.             
+1. Install the library files downloaded above into the Arduino IDE.             
 Refer to: <a href="https://docs.mosiwi.com/en/latest/arduino/resources/arduino_libraries/arduino_libraries.html#installing-libraries" target="_blank">Link</a>             
 ![img](../_static/arduino_tutorial/img/7img.jpg)       
 
