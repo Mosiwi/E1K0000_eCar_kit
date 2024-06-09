@@ -100,7 +100,7 @@ All the following project code needs to be set according to the above parameters
 3. Select COM port:          
 ![img](../_static/arduino_tutorial/img/10img.jpg) 
 ```{note}
-The CH340 driver must be installed, otherwise the COM port cannot be found!              
+The PC must have the CH340 driver installed, the eCar has the proper battery installed, and the power switch is turned on, otherwise the COM port will not be found!                  
 ``` 
 
 4. ESP32 parameter Settings:     
