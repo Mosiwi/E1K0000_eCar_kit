@@ -29,6 +29,9 @@ The CH340 driver and proper battery must be installed and the eCar power switch 
 ## Recover the songs in the SD card   
 -----------------------------------
 1. Download the song file and unzip it: [Click me to download!](../_static/music/ecar_music.rar)    
+```{note}   
+Note that songs are for educational tests only!
+```     
 
 2. Copy the music downloaded in the previous step to the root directory of your SD card, as follows:         
 ![img](../_static/restore_factory_function/img/3img.jpg)              
