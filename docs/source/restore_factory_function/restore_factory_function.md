@@ -11,15 +11,19 @@ eCar in the factory has burned a multi-function code, and SD card stored in some
 If you've already done this step, you can skip it!           
 ``` 
 
-3. Download the burning tool: <a href="https://www.espressif.com.cn/en/support/download/other-tools" target="_blank">Link</a>       
-![img](../_static/restore_factory_function/img/1img.jpg)       
+3. Download the burning tool:            
+ESP official website download tool: <a href="https://www.espressif.com.cn/en/support/download/other-tools" target="_blank">Link1</a>       
+![img](../_static/restore_factory_function/img/1img.jpg)   
+ The tools we are using: [Link2](../_static/restore_factory_function/tool/flash_download_tool_3.9.6_1.zip)     
 
-4. Connect the PC to the eCar using a type C USB cable.    
+4. Connect the PC to the eCar using a Type C USB cable and turn on the power switch of the eCar.            
+![img](../_static/restore_factory_function/img/6img.jpg) 
 
-5. Start the burn tool and burn bin files downloaded above into eCar as follows:           
+5. Start the burn tool and burn bin files downloaded above into eCar as follows:      
+![img](../_static/restore_factory_function/img/5img.jpg)             
 ![img](../_static/restore_factory_function/img/2img.jpg)   
 ```{note}
-The CH340 driver must be installed, otherwise the COM port cannot be found!              
+The CH340 driver and proper battery must be installed and the eCar power switch turned on, otherwise the COM port will not be found!                         
 ``` 
 
 ## Recover the songs in the SD card   

@@ -11,7 +11,13 @@ Tools:
 
 ## Install the CH340 driver      
 ---------------------------     
-<a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>
+<a href="https://docs.mosiwi.com/en/latest/various_resources/ch340/ch340_driver.html" target="_blank">Click me</a>       
+
+```{note}
+After the driver is installed, you must install the appropriate battery and turn the eCar power switch on, otherwise you will not find the COM port!                                 
+``` 
+![img](../_static/arduino_tutorial/img/46img.jpg)     
+
 ```{tip}
 If you've already done this step, you can skip it!           
 ``` 
@@ -509,7 +515,7 @@ More information about I2C communication protocol: <a href="https://docs.mosiwi.
 1. Open the "motor" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/31img.jpg)       
 
-1. Result:       
+2. Result:       
 eCar keeps looping forward, stop, back, stop, turn left, stop, turn right, stop.        
 
 **Code analysis:**        
