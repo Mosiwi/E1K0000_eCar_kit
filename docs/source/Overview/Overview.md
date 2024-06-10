@@ -41,6 +41,10 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Minimum charging current: >2A     
 • Minimum discharge current: >4A   
 ![img](../_static/overview/img/21img.jpg)      
+     
+```{tip}
+It's easy to buy on amazon, ebay, or AliExpress.            
+```
 
 ## Detailed list                
 ----------------

@@ -19,7 +19,7 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
 
 .. toctree::
    :maxdepth: 3
-   :caption: E1K0000_eCar_kit:
+   :caption: 📚 E1K0000_eCar_kit:
 
    1. Overview <Overview/Overview.md>
    2. Assembly <assembly/assembly.md>   
@@ -28,7 +28,7 @@ If you want to download the PDF tutorial, click on "v: latest" at the bottom rig
 
 .. toctree::
    :maxdepth: 3
-   :caption: Other:
+   :caption: 🚀 Other:
 
    Restore factory function <restore_factory_function/restore_factory_function.md> 
    QA <qa/qa.md>    
