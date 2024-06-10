@@ -226,7 +226,7 @@ long dis = T * (10 + readEchoPinErr) * 0.034 / 2;
 
 More information about ultrasonic module: <a href="https://docs.mosiwi.com/en/latest/outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.html" target="_blank">Link</a>       
 
-### 3_Voltage       
+### 3_Battery_voltage       
 1. Open the "voltage" example code and upload it to eCar:           
 ![img](../_static/arduino_tutorial/img/40img.jpg)       
 

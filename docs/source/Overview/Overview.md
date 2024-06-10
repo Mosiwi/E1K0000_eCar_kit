@@ -31,8 +31,8 @@ This kit provides rich and detailed tutorial materials, very simple installation
 • Power of speaker: 8Ω/2W      
 • Motor speed: 245rpm/6V     
 
-## Recommended battery specifications      
--------------------------------------
+## Recommended battery specification      
+------------------------------------
 • Model: 18650 lithium battery (Button top)    
 • Capacity: >2000mAh    
 • Maximum charging voltage: 4.2V    
