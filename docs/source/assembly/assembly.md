@@ -74,10 +74,10 @@ Assembly process:
 Step5 install the servo
 ----------------------- 
 Prepare tools and components:      
-| Acrylic board | Servo | M1.6x8mm screw 2Pcs |      
+| Acrylic board | Servo | M2x8mm screw 2Pcs |      
 | :--: | :--: | :--: |               
 | ![img](../_static/assembly/img/25img.jpg) | ![img](../_static/assembly/img/26img.jpg) | ![img](../_static/assembly/img/27img.jpg) |        
-| M1.6 Nut 2Pcs | Screwdriver | |   
+| M2 Nut 2Pcs | Screwdriver | |   
 | ![img](../_static/assembly/img/31img.jpg) | ![img](../_static/assembly/img/5img.jpg) | |
 
 Assembly process:     

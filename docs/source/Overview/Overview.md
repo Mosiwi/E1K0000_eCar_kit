@@ -64,12 +64,15 @@ It's easy to buy on amazon, ebay, or AliExpress.
 | ZH1.25 to HX2.54 cable | 4P XH2.54 cable | Servo shaft |      
 | 1PCS | 1PCS | 1PCS |    
 | ![Img](../_static/overview/img/13img.jpg) | ![Img](../_static/overview/img/14img.jpg) | ![Img](../_static/overview/img/24img.jpg) |     
-| M3x8mm round-head screw | M1.6x6mm round-head screw | M1.6x8mm round-head screw |     
-| 8PCS | 21PCS | 2PCS |      
-| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/25img.jpg) | ![Img](../_static/overview/img/25img.jpg) |    
+| M3x8mm round-head screw | M1.6x6mm round-head screw | M2x8mm round-head screw |     
+| 8PCS | 21PCS | 2PCS |        
+| ![Img](../_static/overview/img/17img.jpg) | ![Img](../_static/overview/img/25img.jpg) | ![Img](../_static/overview/img/25img.jpg) |      
+| M1.6 nuts  | M2 nuts | M3x30 dual-pass copper pillar |       
+| 4PCS | 2PCS |   |    
+| ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/16img.jpg) |   |  
 | M1.6 nuts  | Latch | M3x30 dual-pass copper pillar |       
-| 6PCS | 2PCS | 5PCS |    
-| ![Img](../_static/overview/img/16img.jpg) | ![Img](../_static/overview/img/27img.jpg) | ![Img](../_static/overview/img/23img.jpg) |     
+|   | 2PCS | 4PCS |    
+|   | ![Img](../_static/overview/img/27img.jpg) | ![Img](../_static/overview/img/23img.jpg) |     
 | Type C USB cable  | Micro SD card | Phillips Screwdriver |   
 | 1PCS | 1PCS | 1PCS |    
 | ![Img](../_static/overview/img/18img.jpg) | ![Img](../_static/overview/img/19img.jpg) | ![Img](../_static/overview/img/20img.jpg) |      
