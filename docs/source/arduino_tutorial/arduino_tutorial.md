@@ -114,7 +114,7 @@ The PC must have the CH340 driver installed, the eCar has the proper battery ins
 
 7. Result:         
 ![img](../_static/arduino_tutorial/img/13img.jpg)       
-Click the touch stick of eCar, and the serial port monitor displays the data.       
+Click the touch pad of eCar, and the serial port monitor displays the data.       
 ![img](../_static/arduino_tutorial/img/14img.jpg)       
 
 **Code analysis:**       
